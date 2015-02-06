@@ -249,10 +249,10 @@ Intro
 }
 @media only screen and (min-width: 1170px) {
   #cd-intro {
-    height: 600px;
+    height: 300px;
   }
   #cd-intro #cd-intro-tagline {
-    padding-top: 250px;
+    padding-top: 150px;
   }
 }
 
