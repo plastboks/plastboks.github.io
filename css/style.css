@@ -92,7 +92,7 @@ Navigation
   width: 100%;
   height: 50px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  background-color: #030d18;
+  background-color: #d3d3d3;
   z-index: 3;
 }
 @media only screen and (min-width: 768px) {
@@ -165,7 +165,7 @@ Navigation
   height: 50px;
   line-height: 50px;
   padding-left: 5%;
-  background: #000101;
+  background: #d3d3d3;
   border-top: 1px solid #051426;
   color: #f0eee1;
 }
@@ -215,9 +215,9 @@ Intro
 -------------------------------- */
 #cd-intro {
   position: relative;
-  height: 300px;
+  height: 200px;
   /*background: url(../img/intro-background.jpg) no-repeat center center;*/
-  background: #456789;
+  background: #d3d3d3;
   background-size: cover;
   z-index: 2;
 }
@@ -233,18 +233,18 @@ Intro
   font-size: 1.5rem;
   font-weight: 300;
   color: #030d18;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 4px 3px rgba(0, 0, 0, 0.1);
 }
 @media only screen and (min-width: 768px) {
   #cd-intro {
-    height: 400px;
+    height: 300px;
   }
   #cd-intro #cd-intro-tagline {
     padding-top: 160px;
   }
   #cd-intro h1 {
     font-size: 32px;
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -252,7 +252,7 @@ Intro
     height: 300px;
   }
   #cd-intro #cd-intro-tagline {
-    padding-top: 150px;
+    padding-top: 130px;
   }
 }
 
@@ -356,7 +356,8 @@ Secondary Fixed Navigation
   .cd-secondary-nav {
     z-index: 1;
     height: 100px;
-    background-color: rgba(3, 13, 24, 0.96);
+    background-color: #fefefe;
+    box-shadow: 0px 5px 5px #d3d3d3;
     -webkit-transition: height 0.3s;
     -moz-transition: height 0.3s;
     transition: height 0.3s;
@@ -397,7 +398,7 @@ Secondary Fixed Navigation
     font-size: 13px;
     font-size: 0.8125rem;
     font-weight: 700;
-    color: rgba(240, 238, 225, 0.3);
+    color: #a3a3a3;
   }
   .cd-secondary-nav li a span {
     position: absolute;
@@ -419,7 +420,7 @@ Secondary Fixed Navigation
     transition: opacity 0.2s;
   }
   .cd-secondary-nav li a:hover b, .cd-secondary-nav li a.active b {
-    color: #f0eee1;
+    color: #4a4a4a;
   }
   .cd-secondary-nav li:nth-child(1) a span {
     background-position: 0 0;
@@ -568,17 +569,78 @@ Placeholder Sections
   margin-bottom: .6em;
   font-weight: 700;
 }
+
+.cd-section h3.lined {
+    border-bottom: 1px solid lightgray;
+}
+
+.cd-section h3 {
+    font-size: 14px;
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.cd-section h3 span.date {
+    font-size: 10px;
+    font-size: 1rem;
+    font-weight: 200;
+    float: right;
+}
+
+.cd-section p {
+    padding: 5px 0px;
+}
+
+.cd-section ul li.title {
+    font-weight: bold;
+}
+
+.cd-section ul li.date h4 {
+}
+
 .cd-section p {
   line-height: 1.6;
 }
+
+.cd-section span.github a {
+    background: url("../img/GitHub-Mark-Small.png") no-repeat left center;
+    padding-left: 20px;
+    color: #030d18;
+}
+
+.cd-section p.tagcloud > .label {
+    color: #eee;
+    font-size: 1rem;
+    display: inline-block;
+    margin: .2rem;
+}
+
+.cd-section p.tagcloud .label{
+    background: #d3d3d3;
+    border: 2px solid #a3a3a3;
+    color: #030d18;
+    margin: .2rem;
+    padding: .2em .6em .3em;
+    line-height: 1;
+    text-align: center;
+    border-radius: .25em;
+    white-space: nowrap;
+}
+
 @media only screen and (min-width: 1170px) {
   .cd-section {
     margin: 0 auto;
-    padding: 4em 0;
+    padding: 3em 0;
   }
   .cd-section h2 {
     font-size: 30px;
     font-size: 1.875rem;
+  }
+  .cd-section h3 {
+    font-size: 20px;
+    font-size: 1.2rem;
   }
   .cd-section p {
     font-size: 20px;
