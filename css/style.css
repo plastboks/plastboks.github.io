@@ -232,6 +232,14 @@ Intro
   font-size: 24px;
   font-size: 1.5rem;
   font-weight: 300;
+  padding-bottom: 10px;
+  color: #030d18;
+  text-shadow: 0 4px 3px rgba(0, 0, 0, 0.1);
+}
+#cd-intro span.subtitle {
+  font-size: 12px;
+  font-size: 1.2rem;
+  font-weight: 300;
   color: #030d18;
   text-shadow: 0 4px 3px rgba(0, 0, 0, 0.1);
 }
