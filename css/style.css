@@ -612,8 +612,20 @@ Placeholder Sections
   line-height: 1.6;
 }
 
+.cd-section span.education {
+    background: url("../img/Education-Hat-Small.png") no-repeat left center;
+    padding-left: 20px;
+    color: #030d18;
+}
+
 .cd-section span.github a {
-    background: url("../img/GitHub-Mark-Small.png") no-repeat left center;
+    background: url("../img/Github-Mark-Small-Color.png") no-repeat left center;
+    padding-left: 20px;
+    color: #030d18;
+}
+
+.cd-section span.playstore a {
+    background: url("../img/Google-Play-Store-Small.png") no-repeat left center;
     padding-left: 20px;
     color: #030d18;
 }
