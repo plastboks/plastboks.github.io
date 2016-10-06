@@ -1,0 +1,49 @@
+@media print {
+    nav {
+        display: none;
+    }
+    
+    .cd-header {
+        display: none;
+    }
+
+	#cd-intro h1:after {
+		content: url(https://chart.googleapis.com/chart?cht=qr&chs=150x150&chl=http://plastboks.github.io&choe=UTF-8);
+		position: absolute;
+		right: 0;
+		top: 0;
+	}  
+
+	#cd-placeholder-1 {
+		page-break-after: always;
+	}
+
+	body {
+        font-size: 80%;
+	}
+
+    .cd-section h3 {
+        font-size: 1rem;
+    }
+
+    .cd-section h3 span.date {
+        font-size: 0.8rem;
+    }
+
+    #cd-placeholder-3 {
+        display: none;
+    }
+
+    #cd-placeholder-4 {
+        display: none;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+}
+
+@page {
+  size: A4 portrait;
+}
