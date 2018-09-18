@@ -15,7 +15,7 @@
 	}  
 
 	#cd-placeholder-1 {
-		page-break-after: always;
+		/*page-break-after: always;*/
 	}
 
 	body {
@@ -36,6 +36,10 @@
 
     #cd-placeholder-4 {
         display: none;
+    }
+
+    #cd-placeholder-5 .label {
+        font-size: 0.7rem;
     }
 
     .print-only {
